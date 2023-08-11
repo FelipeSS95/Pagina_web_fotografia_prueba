@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--Bootstrap JS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Web fotografía</title>
+</head>
+
+<!--barra de navegacion-->
+<body>
+    <nav class= "navbar navbar-expand-lg bg-body-tertiary navbar fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Landscape Photography</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link" href="#Contacto">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!--inicio del carrusel de imagenes de portada-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>  
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/foto 1.jpg" class="w-100" height="665" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto 2.jpg" class="w-100" height="665" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto 3.jpg" class="w-100" height="665" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto 4.jpg" class="w-100" height="665" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/foto 5.jpg" class="w-100" height="665" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!--informacion personal/bio-->
+      <div id="about" class="container text-center">
+        <div class="row align-items-center">
+          <div id="bio-img" class="col-3">
+            <img src="img/foto 1.jpg" width="400" height="300">
+          </div>
+          <div class="col-2">
+          </div>
+          <div id="bio" class="col-l-7 col-md-7 col-md-4 align-items-center">
+            Gracias por visitar mi web, te cuento un poco sobre mi para que me conozcas. <br>
+            Empecé a formarme en la fotografía en el año 2016 en la ciudad de Trelew en el estudio “La Hoja” donde realice mi primer curso de fotografía integral, desde ese momento no pare de formarme en la fotografía así como también en otros medios audiovisuales y multimediales.
+            Actualmente soy estudiante del tercer año de la Tecnicatura Superior en Producción de Multimedios dictada en el I.S.E.T N°812 en la ciudad de Trelew, dentro de la carrera me estoy formando como productor de contenidos multimediales, para medios audiovisuales, radiales o gráficos.
+            Dentro del estudio de fotografía “La Hoja” realice dos cursos mas: “Técnicas fotográficas + Adobe Camera Raw” y “Adobe Lightroom”, en los años 2017 y 2018 respectivamente
+            En el año 2017 participe de un seminario de fotografía documental a cargo del fotógrafo Facundo Geli, que se realizo en la ciudad de Puerto Madryn en el estudio de fotografía EFOP.
+          </div>
+        </div>
+      </div>
+
+
+<!--espacio para Work-->
+      <div id="work" class="container text-center">
+        <div class="row align-items-center">
+          <div id="texto-muestra" class="col-l-7 col-md-7 col-md-4 align-items-center">
+            En el año 2019 presente mi primer muestra fotografía titulada "Cülpem". <br>
+            Un recorrido por algunos de los distintos paisajes de la provincia con la intencion de 
+            poner en valor lo propio, concientizar sobre la preservacion de la naturaleza y 
+            mostrar los atractivos de la region, comenzamos el recorrido por la costa, pasando por el valle
+            y finalizando en la cordillera, el proyecto es un trabajo aun no finalizado, ya que la idea
+            es ampliar la entrega con una segunda muestra mostrando mas paisajes e incorporando imagenes de 
+            la meseta y del sur de la provincia.
+          </div>
+          <div class="col 2">
+          </div>
+
+        <div class="col 4">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Costa 1.jpg" width="400" height="300" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Playa Magagna</h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Valle 2.jpg" width="400" height="300" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>VIRCH</h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Cordillera 1.jpg" width="400" height="300" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El Hoyo</h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+<!--Casilla para contacto-->
+<div class="row align-items-center">
+    <div id="Contacto" class="container lg-12 md-8 sm-4">
+        <h1>Contact</h1>   
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Leave a Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        </div>
+    </div>   
+</div>    
+
+
+</body>
+</html>
